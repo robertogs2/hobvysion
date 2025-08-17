@@ -1,3 +1,8 @@
+# This script demonstrates how to warp an image around the Y-axis using OpenCV and Matplotlib.
+# It allows you to adjust the angle of rotation using a slider.
+# The image is warped as if viewed from a camera with a specific intrinsic matrix.
+# The warping simulates a perspective transformation based on the rotation angle.
+
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
